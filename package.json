@@ -9,7 +9,7 @@
     "dev": "tsx ./src/index.ts",
     "build": "tsc -p tsconfig.json",
     "start": "node dist/src/index.js",
-    "fmt":"yarn eslint src test --fix && yarn rome format src test --write"
+    "fmt":"yarn eslint src test --fix && yarn rome format **/*.ts **/*.js --write"
   },
   "dependencies": {
     "fastify": "^4.10.2"
